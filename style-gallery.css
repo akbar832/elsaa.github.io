@@ -1,0 +1,60 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  background-image: url("https://img.freepik.com/free-vector/flat-design-abstract-doodle-background-with-leaves_23-2149322637.jpg?size=626&ext=jpg"); /* Ganti dengan path atau URL gambar latar belakang yang sesuai */
+}
+
+header {
+  background-color: wheat;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.gallery-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #ff6666;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #ff6666;
+  margin-bottom: 15px;
+}
+
+.photo-gallery img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.video-gallery {
+  display: grid;
+  gap: 15px;
+}
+
+.video-gallery video {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: wheat;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}

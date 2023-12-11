@@ -1,0 +1,82 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.freepik.com/free-vector/flat-abstract-doodle-background_23-2149337654.jpg?t=st=1701306024~exp=1701306624~hmac=58437d1fb760431cfb80a8bc8eed59ef72c557f19ee67ca31a25704e2967540d"); /* Ganti dengan path atau URL gambar latar belakang yang sesuai */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: tomato;
+}
+
+header {
+  background-color: transparent; /* Warna header dengan sedikit transparansi */
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.greeting {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Warna latar belakang dengan sedikit transparansi */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #ff6666;
+}
+
+.greeting p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.image-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.surprise-button-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.surprise-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #ff6666;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.surprise-button:hover {
+  background-color: #ff3333;
+}
+
+footer {
+  background-color: transparent; /* Warna footer dengan sedikit transparansi */
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

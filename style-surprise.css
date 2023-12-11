@@ -1,0 +1,81 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.freepik.com/free-vector/detailed-hand-painted-pink-watercolour-background_1048-17039.jpg?size=626&ext=jpg&ga=GA1.1.552920469.1689149329&semt=sph"); /* Ganti dengan path atau URL gambar latar belakang yang sesuai */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+header {
+  background-color: transparent; /* Warna header dengan sedikit transparansi */
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.surprise-content {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Warna latar belakang dengan sedikit transparansi */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #ff6666;
+}
+
+.surprise-content p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.surprise-image-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: pink; /* Warna footer dengan sedikit transparansi */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* ... CSS sebelumnya ... */
+
+.gallery-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: tomato;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.gallery-button:hover {
+  background-color: #ff3333;
+}
+
+/* ... CSS setelahnya ... */
